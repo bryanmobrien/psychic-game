@@ -1,0 +1,96 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  body {
+      background-image: url("../../assets/images/psychedelic_pattern.png");
+      font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+      font-size: 16px;
+  }
+  
+  h1 {
+      text-align: left;
+      
+  }
+  h2 {
+      text-align: left;
+  }
+  
+  .container {
+      width: 100%;
+      max-width: 950px;
+      margin: 0 auto;
+  }
+  
+  #space {
+      margin-top: 15px;
+  }
+  .psychic-reader {
+      height: 150px;
+      width: 150px;
+      margin-right: 10%;
+  }
+  .psychic-vision {
+    height: 150px;
+    width: 150px;
+    margin-left: 10%;
+}
+  .footer {
+      right: 0;
+      left: 0;
+      bottom: 0;
+      position: absolute;
+      background: #DBA5DF;
+      text-align: center;
+      font-size: 30px;
+      color: #4A5BD2;
+      padding: 1rem;
+  }
+  
+  /*MEDIA QUERIES*/
+  
+  @media screen and (max-width: 980px){
+      #psychic-reader {
+          margin-left: 175px;
+      }
+  
+      /* #psychic {
+          margin-left: 165px;
+      } */
+  
+      #psychics-image {
+          margin-right: 175px;
+      }
+  
+  }
+  
+  
+  @media only screen and (max-width: 768px){
+  
+      #psychic {
+          margin-left: 170px;
+      }
+  
+  }
+  
+  
+  @media only screen and (max-width: 640px){
+  
+      h2 {
+          margin-left: 70px;
+      }
+  
+      #psychic-image {
+          margin-left: 150px;
+      }
+  
+      #psychic {
+          margin-left: 145px;
+      }
+  
+      #psychics-image {
+          margin-right: 100px;
+      }
+  
+  
